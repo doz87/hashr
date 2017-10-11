@@ -27,7 +27,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito|Orbitron" rel="stylesheet">
 </head>
 <body>
-	<form name ="hashform" method="post" onsubmit="return validateform()">
+	<form name ="hashform" method="post">
 		<label>Input string: </label>
 		<input type="text" name="input" required oninvalid="this.setCustomValidity('You can\'t leave the input string blank!')">
 		<input type="submit" name="submit" value="Hash!">
