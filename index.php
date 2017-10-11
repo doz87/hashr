@@ -1,9 +1,10 @@
-<?php 
+<?php
 	require_once("function.php");
  ?>
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Hashr</title>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<style type="text/css">
@@ -25,6 +26,7 @@
 		}
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Nunito|Orbitron" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<form name ="hashform" method="post">
@@ -43,6 +45,6 @@
 				</div>
 		<?php	}
 		 ?>
-	</div>
+</div>
 </body>
 </html>
